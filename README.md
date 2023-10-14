@@ -47,7 +47,7 @@ npm run start:debug
 ```
 
 - Application will start on port number (`PORT`) which defined on `.env`
-- For accessing Swagger Documentation, you should use http://localhost:3000/docs (for `PORT`= 3000)
+- For accessing Swagger Documentation, you should use http://localhost:3000/docs (for `PORT`= 3000) and you should use Username `SWAGGER_USERNAME`, `SWAGGER_PASSWORD` to login Swagger Documentation Page.
 
 ## 🤝 Contributing
 
