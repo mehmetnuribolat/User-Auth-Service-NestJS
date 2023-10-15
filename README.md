@@ -1,7 +1,7 @@
 # User Service
 Authentication, Authorization, Forgot Password and CRUD operations implementation on NestJs using PassportJs, MongoDb.
 
-![Backend Tech Stack](https://user-images.githubusercontent.com/61401062/130734976-e6c69175-1738-4841-8e0b-cb0d3b94cd7e.png)
+![nestjs-mongo](https://github.com/mehmetnuribolat/User-Auth-Service-NestJS/assets/145845943/697c57c4-9e28-4db5-96b8-f5924ee66b02)
 
 ## Features
 - Authentication using PassportJs-JWT.
