@@ -60,7 +60,7 @@ npm run start:debug
 
 ## :card_index_dividers: Resources
 - [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-- [Clean Node.js Architecture - With NEstJs and TypeScript](https://www.youtube.com/watch?v=jjczRbgHvVg)
+- [Clean Node.js Architecture - With NestJs and TypeScript](https://www.youtube.com/watch?v=jjczRbgHvVg)
 
 ## 🤝 Contributing
 
