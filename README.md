@@ -58,6 +58,10 @@ npm run start:debug
 - Application will start on port number (`PORT`) which defined on `.env`
 - For accessing Swagger Documentation, you should use http://localhost:3000/docs (for `PORT`= 3000) and you should use Username `SWAGGER_USERNAME`, `SWAGGER_PASSWORD` to login Swagger Documentation Page.
 
+## :card_index_dividers: Resources
+- [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [Clean Node.js Architecture - With NEstJs and TypeScript](https://www.youtube.com/watch?v=jjczRbgHvVg)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/mehmetnuribolat/User-Auth-Service-NestJS/issues).
