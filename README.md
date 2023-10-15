@@ -15,6 +15,8 @@ Authentication, Authorization, Forgot Password and CRUD operations implementatio
 - Custom Guards, Filters, Interceptors
 - Custom Response Wrapper
 
+   ![CleanArchitecture](https://github.com/mehmetnuribolat/User-Auth-Service-NestJS/assets/145845943/4a49d331-9ac1-48b2-b56c-9dc4671bd062)
+
 ## 💻 Tech Stack
 
 - Environment: [Node.js](https://nodejs.org/)
