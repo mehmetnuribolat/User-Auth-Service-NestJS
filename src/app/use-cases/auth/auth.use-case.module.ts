@@ -5,7 +5,7 @@ import { AutomapperModule } from '@automapper/nestjs';
 import { classes } from '@automapper/classes';
 import { AuthServicesModule } from '../../services/auth-services/auth-services.module';
 import { MailSenderModule } from '../../services/mail-services/mail-sender.module';
-import { ConfigModule } from '../../../config';
+import { ConfigurationModule } from '../../../config';
 
 @Module({
   imports: [
@@ -13,7 +13,7 @@ import { ConfigModule } from '../../../config';
     DataServicesModule,
     AuthServicesModule,
     MailSenderModule,
-    ConfigModule,
+    ConfigurationModule,
   ],
   providers: [AuthUseCases],
   exports: [AuthUseCases],

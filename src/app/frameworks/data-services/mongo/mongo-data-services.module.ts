@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { User, UserSchema } from './model';
-import { ConfigModule, ConfigService } from '../../../../config';
+import { ConfigurationModule, ConfigService } from '../../../../config';
 import { IDataServices } from 'src/app/core/abstracts';
 import { MongoDataServices } from './mongo-data-service.service';
 
@@ -9,7 +9,7 @@ import { MongoDataServices } from './mongo-data-service.service';
   imports: [
     MongooseModule.forFeature([{ name: User.name, schema: UserSchema }]),
     MongooseModule.forRootAsync({
-      imports: [ConfigModule],
+      imports: [ConfigurationModule],
       useFactory: (configService: ConfigService) => {
         return configService.getMongooseOptions();
       },

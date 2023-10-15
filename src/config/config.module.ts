@@ -16,4 +16,4 @@ const configFactory = {
   providers: [configFactory],
   exports: [configFactory],
 })
-export class ConfigModule {}
+export class ConfigurationModule {}

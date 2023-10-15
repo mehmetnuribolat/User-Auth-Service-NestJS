@@ -3,12 +3,12 @@ import { IMailSenderService } from '../../core/abstracts/mail-sender-service.abs
 import { MailSenderService } from './mail-sender.service';
 import { MailerModule } from '@nestjs-modules/mailer';
 import { ConfigService } from '../../../config/config.service';
-import { ConfigModule } from '../../../config';
+import { ConfigurationModule } from '../../../config';
 
 @Module({
   imports: [
     MailerModule.forRootAsync({
-      imports: [ConfigModule],
+      imports: [ConfigurationModule],
       useFactory: (configService: ConfigService) => {
         return {
           transport: {

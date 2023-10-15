@@ -28,7 +28,7 @@ export class ConfigService {
       swagger: this.parseSwaggerConfig(env, DEFAULT_CONFIG.swagger),
       auth: this.parseAuthConfig(env, DEFAULT_CONFIG.auth),
       mail: this.parseMailConfig(env, DEFAULT_CONFIG.mail),
-      logLevel: env.LOG_LEVEL!,
+      logLevel: env.LOG_LEVEL,
     };
   }
 

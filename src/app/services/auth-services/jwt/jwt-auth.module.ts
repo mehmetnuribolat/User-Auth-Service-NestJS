@@ -3,11 +3,11 @@ import { JwtAuthService } from './jwt-auth.service';
 import { JwtModule } from '@nestjs/jwt';
 import { PassportModule } from '@nestjs/passport';
 import { IJwtAuthService } from '../../../core/abstracts';
-import { ConfigModule } from '../../../../config';
+import { ConfigurationModule } from '../../../../config';
 
 @Module({
   imports: [
-    ConfigModule,
+    ConfigurationModule,
     PassportModule.register({ defaultStrategy: 'jwt', session: false }),
     JwtModule.register({}),
   ],

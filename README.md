@@ -1,11 +1,14 @@
 # User Service
 Authentication, Authorization, Forgot Password and CRUD operations implementation on NestJs using PassportJs, MongoDb.
 
+!(https://user-images.githubusercontent.com/61401062/130734976-e6c69175-1738-4841-8e0b-cb0d3b94cd7e.png)
+
 ## Features
 - Authentication using PassportJs-JWT.
 - Simple Forgot Password implementation with NodeMailer
 - CRUD operations for User Entity.
 - Reading environment variables from .env file
+- Database Seeding
 - Documentation of API using Swagger and Adding Custom Authentication for Swagger Document
 - Simple Health Check Operation for Mongoose
 - Clean Architecture
@@ -38,6 +41,12 @@ First, you need to set all environment variables in `.env`.
 
 ```
 npm install
+```
+
+### Database Seeding:
+
+```
+npm run seed
 ```
 
 ### Execute application on development mode:

@@ -10,11 +10,16 @@ import { DataServicesModule } from './app/services/data-services/data-services.m
 import { UserUseCasesModule } from './app/use-cases/user/user-use-cases.module';
 import { AuthUseCasesModule } from './app/use-cases/auth/auth.use-case.module';
 import { TerminusModule } from '@nestjs/terminus';
-import { ConfigModule } from './config';
+import { ConfigurationModule } from './config';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
   imports: [
-    ConfigModule,
+    ConfigModule.forRoot({
+      isGlobal: true,
+      envFilePath: `.env`,
+    }),
+    ConfigurationModule,
     DataServicesModule,
     UserUseCasesModule,
     AuthUseCasesModule,

@@ -64,7 +64,6 @@ export class UserUseCases {
     userData.email = userData?.email.toLowerCase();
 
     const userEntity = this.classMapper.map(userData, UserCreationDto, User);
-    userEntity.role = 'Moderator';
     userEntity.updated_at = new Date();
     userEntity.created_at = new Date();
 

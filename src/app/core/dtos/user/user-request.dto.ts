@@ -4,6 +4,7 @@ import { Type as validateType } from 'class-transformer';
 import {
   IsDefined,
   IsEmail,
+  IsEnum,
   IsObject,
   IsOptional,
   IsPhoneNumber,
@@ -12,6 +13,7 @@ import {
   MinLength,
   ValidateNested,
 } from 'class-validator';
+import { UserRoles } from 'src/app/constants';
 
 export class UserIdParamDto {
   @ApiProperty({
@@ -61,6 +63,9 @@ export class UserCreationDto {
   @MinLength(8)
   @AutoMap()
   public password!: string;
+
+  @IsEnum(UserRoles)
+  public role!: string;
 }
 
 export class UserAppPermissionUpdateRequestDto {

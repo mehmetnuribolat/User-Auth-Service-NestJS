@@ -4,19 +4,12 @@ import {
   ExceptionFilter,
   HttpException,
   HttpStatus,
-  HttpVersionNotSupportedException,
 } from '@nestjs/common';
 import {
   GlobalResponseError,
   IError,
 } from '../../core/dtos/error/global-response-error.dto';
-import {
-  CannotCreateEntityIdMapError,
-  EntityNotFoundError,
-  QueryFailedError,
-} from 'typeorm';
-import { Request, Response } from 'express';
-import { Exception } from 'handlebars';
+import { Response } from 'express';
 
 @Catch()
 export class GlobalExceptionFilter implements ExceptionFilter {
