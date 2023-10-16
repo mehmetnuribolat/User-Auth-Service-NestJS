@@ -4,9 +4,9 @@ Authentication, Authorization, Forgot Password and CRUD operations implementatio
 ![nestjs-mongo](https://github.com/mehmetnuribolat/User-Auth-Service-NestJS/assets/145845943/697c57c4-9e28-4db5-96b8-f5924ee66b02)
 
 ## Features
-- Authentication using PassportJs-JWT.
+- Authentication using PassportJs-JWT
 - Simple Forgot Password implementation with NodeMailer
-- CRUD operations for User Entity.
+- CRUD operations for User Entity
 - Reading environment variables from .env file
 - Database Seeding
 - Documentation of API using Swagger and Adding Custom Authentication for Swagger Document
@@ -18,7 +18,6 @@ Authentication, Authorization, Forgot Password and CRUD operations implementatio
    ![CleanArchitecture](https://github.com/mehmetnuribolat/User-Auth-Service-NestJS/assets/145845943/4a49d331-9ac1-48b2-b56c-9dc4671bd062)
 
 ## 💻 Tech Stack
-
 - Environment: [Node.js](https://nodejs.org/)
 - Framework: [Nest.js](https://nestjs.com/)
 - Database: [MongoDB](https://www.mongodb.com/)
