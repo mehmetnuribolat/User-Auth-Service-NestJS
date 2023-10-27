@@ -1,7 +1,8 @@
 # User Service
 Authentication, Authorization, Forgot Password and CRUD operations implementation on NestJs using PassportJs, MongoDb.
 
-![nestjs-mongo](https://github.com/mehmetnuribolat/User-Auth-Service-NestJS/assets/145845943/697c57c4-9e28-4db5-96b8-f5924ee66b02)
+![nestjs-mongo-authentication](https://github.com/mehmetnuribolat/User-Auth-Service-NestJS/assets/145845943/2d8fbd2a-9920-431c-aff5-f1bda3dc66d6)
+
 
 ## Features
 - Authentication using PassportJs-JWT
@@ -15,7 +16,7 @@ Authentication, Authorization, Forgot Password and CRUD operations implementatio
 - Custom Guards, Filters, Interceptors
 - Custom Response Wrapper
 
-   ![CleanArchitecture](https://github.com/mehmetnuribolat/User-Auth-Service-NestJS/assets/145845943/4a49d331-9ac1-48b2-b56c-9dc4671bd062)
+![CleanArchitecture](https://github.com/mehmetnuribolat/User-Auth-Service-NestJS/assets/145845943/1e467965-9297-4b77-9b38-13e17255f7e2)
 
 ## 💻 Tech Stack
 - Environment: [Node.js](https://nodejs.org/)
